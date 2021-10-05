@@ -15,7 +15,7 @@ services:
       - vtiger
 
   vtiger:
-    image: javanile/vtiger:7.1.0
+    image: thirdlane/vtiger:7.4.0
     environment:
       - VT_DEBUG=true
       - VT_SITE_URL=https://localhost/
